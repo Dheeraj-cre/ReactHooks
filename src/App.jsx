@@ -5,6 +5,8 @@ import Example2 from "./components/useeffects/Eample2.jsx";
 import Example3 from "./components/useeffects/Example3.jsx";
 import Example4 from "./components/useeffects/Example4.jsx";
 import Example5 from "./components/useeffects/Example5.jsx";
+import UseMemo from "./components/usememo/UseMemo1.jsx";
+import UseMemo2 from "./components/usememo/UseMemo2.jsx";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Example3 />
       <Example4 />
       <Example5 />
+      <UseMemo />
+      <UseMemo2 />
       {/* <UseMemo /> */}
     </div>
   );
