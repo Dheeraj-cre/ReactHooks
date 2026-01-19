@@ -7,6 +7,9 @@ import Example4 from "./components/useeffects/Example4.jsx";
 import Example5 from "./components/useeffects/Example5.jsx";
 import UseMemo from "./components/usememo/UseMemo1.jsx";
 import UseMemo2 from "./components/usememo/UseMemo2.jsx";
+import UserefExample1 from "./components/useref/UserefExample1.jsx";
+import UserefExample2 from "./components/useref/UserefExample2.jsx";
+import UserefExample3 from "./components/useref/UserefExample3.jsx";
 
 function App() {
   return (
@@ -20,6 +23,10 @@ function App() {
       <Example5 />
       <UseMemo />
       <UseMemo2 />
+      <UserefExample1 />
+      <UserefExample2 />
+      <UserefExample3 />
+      
       {/* <UseMemo /> */}
     </div>
   );
